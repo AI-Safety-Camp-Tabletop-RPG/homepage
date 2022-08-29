@@ -1,5 +1,6 @@
 ---
 layout: Home
+title: Home
 ---
 
 # The Treacherous Turn

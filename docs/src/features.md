@@ -1,5 +1,6 @@
 ---
 layout: Features
+title: Features
 ---
 
 ## Enter the mind of an Artificial General Intelligence (AGI).

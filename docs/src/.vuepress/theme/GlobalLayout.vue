@@ -1,20 +1,20 @@
 <template>
-  <div id="global-layout">
+  <div id="global-layout" class="bg-black text-white">
     <header>
       <h1>
         <RouterLink to="/">
-          The Treacherous Turn
+          {{$site.title}}
         </RouterLink>
       </h1>
       <nav>
-        <RouterLink to="/features">
+        <RouterLink to="/features" class="px-4">
           Features
         </RouterLink>
-        <RouterLink to="/downloads">
+        <RouterLink to="/downloads" class="px-4">
           Downloads
         </RouterLink>
-        <a href="https://app.thetreacherousturn.ai/">Web Tool  ⨠</a>
-        <RouterLink to="/contact">
+        <a href="https://app.thetreacherousturn.ai/" class="px-4">Web Tool  ⨠</a>
+        <RouterLink to="/contact" class="px-4">
           Contact
         </RouterLink>
       </nav>
@@ -60,8 +60,6 @@ export default {
 
 </script>
 
-<style>
-  nav a {
-    padding: 0 1em;
-  }
+<style lang="stylus">
+  @import './styles/style.styl';
 </style>

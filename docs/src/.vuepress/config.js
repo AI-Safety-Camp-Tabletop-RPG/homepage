@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'The Treacherous Turn',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -69,5 +69,12 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  postcss: {
+    plugins: [
+      require("autoprefixer"),
+      require("tailwindcss")("./src/.vuepress/tailwind.config.js")
+    ]
+  }
 }

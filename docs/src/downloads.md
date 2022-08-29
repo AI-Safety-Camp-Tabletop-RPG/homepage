@@ -1,5 +1,6 @@
 ---
 layout: Downloads
+title: Downloads
 downloads:
 - title: Rulebook
   image: /rulebook.png

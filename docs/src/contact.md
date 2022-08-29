@@ -1,5 +1,6 @@
 ---
 layout: Contact
+title: Contact
 email: info@thetreacherousturn.ai
 ---
 
