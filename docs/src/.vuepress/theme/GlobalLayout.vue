@@ -22,11 +22,6 @@
 
     <component :is="layout"/>
 
-    <details>
-      <summary>DEBUG INFO</summary>
-      The layout is: {{layout}}
-    </details>
-
     <footer>
       <figure>
         <img src="/Logo (180x180).png" alt="logo">
@@ -37,13 +32,24 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import { setGlobalInfo } from '@app/util'
 export default {
+  name: 'GlobalLayout',
   computed: {
     layout () {
+      const layout = this.getLayout()
+      setGlobalInfo('layout', layout)
+      return Vue.component(layout)
+    }
+  },
+  methods: {
+    getLayout () {
       if (this.$page.path) {
-        if (this.$frontmatter.layout) {
-          // You can also check whether layout exists first as the default global layout does.
-          return this.$frontmatter.layout
+        const layout = this.$page.frontmatter.layout
+        if (layout && (this.$vuepress.getLayoutAsyncComponent(layout)
+          || this.$vuepress.getVueComponent(layout))) {
+          return layout
         }
         return 'Layout'
       }
@@ -51,6 +57,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style>
