@@ -1,5 +1,5 @@
 <template>
-  <div id="global-layout" class="bg-black text-white">
+  <div id="global-layout">
     <header>
       <h1>
         <RouterLink to="/">
