@@ -1,7 +1,90 @@
 @tailwind base;
-html, body {
-  @apply bg-black text-white font-mono
+@layer base {
+  html, body {
+    @apply bg-black text-white font-mono font-light
+  }
+  // make images scale crispy
+  img, canvas {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
 }
 @tailwind components;
+@layer components {
+  .feature-block h2 {
+    @apply text-3xl font-extralight
+  }
+  .feature-block p:first-of-type {
+    @apply mt-10
+  }
+  .feature-block p {
+    @apply text-base mt-8
+  }
+  .content__feature-1 h2 {
+    // TODO improve highlight effect
+    display: inline;
+    background-repeat: no-repeat;
+    background-size: 100% 0.8em;
+    background-position: -2% 118%;
+    background-image: linear-gradient(0deg, #ee00e1, #ee00e1);
+  }
+  .content__feature-2 h2 {
+    // TODO improve highlight effect
+    display: inline;
+    background-repeat: no-repeat;
+    background-size: 100% 0.8em;
+    background-position: -2% 118%;
+    background-image: linear-gradient(0deg, #0f2cff, #0f2cff);
+  }
+
+  /*
+  .content__hero h1 {
+    @apply text-5xl font-extralight highlighter
+  }
+  .content__hero p {
+    @apply text-2xl
+  }
+  */
+  .app-container {
+    position: absolute;
+    width: 100%;
+  }
+  .bg-glitch {
+    opacity: 0.6;
+    position: fixed;
+    z-index: 0;
+    top: -10em;
+    left: -10em;
+  }
+}
 
 @tailwind utilities;
+
+@layer utilities {
+  .highlighter, .highlighter-blue, .highlighter-pink {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+  }
+  .highlighter::after, .highlighter-blue::after, .highlighter-pink::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: -5%;
+    display: block;
+    width: 105%;
+    height: 60%;
+  }
+  .highlighter::after {
+    @apply bg-tttHighlightRed
+  }
+  .highlighter-blue::after {
+    @apply bg-tttHighlightBlue
+  }
+  .highlighter-pink::after {
+    @apply bg-tttHighlightPink
+  }
+}

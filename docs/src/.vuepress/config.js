@@ -60,7 +60,7 @@ module.exports = {
     },
   },
   markdown: {
-    anchor: { permalink: false }
+    anchor: { permalink: false },
   },
 
   /**
