@@ -8,14 +8,14 @@
           </RouterLink>
         </h1>
         <nav>
-          <RouterLink to="/features" class="px-4">
+          <RouterLink to="/features" class="px-4 hover-highlighter">
             Features
           </RouterLink>
-          <RouterLink to="/downloads" class="px-4">
+          <RouterLink to="/downloads" class="px-4 hover-highlighter">
             Downloads
           </RouterLink>
-          <a href="https://app.thetreacherousturn.ai/" class="px-4">Web Tool  ⨠</a>
-          <RouterLink to="/contact" class="px-4">
+          <a href="https://app.thetreacherousturn.ai/" class="px-4 hover-highlighter">Web Tool  ⨠</a>
+          <RouterLink to="/contact" class="px-4 hover-highlighter">
             Contact
           </RouterLink>
         </nav>

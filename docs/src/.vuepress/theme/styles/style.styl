@@ -26,17 +26,25 @@
     // TODO improve highlight effect
     display: inline;
     background-repeat: no-repeat;
-    background-size: 100% 0.8em;
+    background-size: 0% 0.8em;
     background-position: -2% 118%;
     background-image: linear-gradient(0deg, #ee00e1, #ee00e1);
+    transition: all 0.3s ease-out;
   }
   .content__feature-2 h2 {
     // TODO improve highlight effect
     display: inline;
     background-repeat: no-repeat;
-    background-size: 100% 0.8em;
+    background-size: 0% 0.8em;
     background-position: -2% 118%;
     background-image: linear-gradient(0deg, #0f2cff, #0f2cff);
+    transition: all 0.3s ease-out;
+  }
+  .content__feature-1:hover h2 {
+    background-size: 100% 0.8em;
+  }
+  .content__feature-2:hover h2 {
+    background-size: 100% 0.8em;
   }
 
   /*
@@ -75,7 +83,7 @@
     top: 50%;
     left: -5%;
     display: block;
-    width: 105%;
+    width: 110%;
     height: 60%;
   }
   .highlighter::after {
@@ -87,4 +95,33 @@
   .highlighter-pink::after {
     @apply bg-tttHighlightPink
   }
+}
+
+.hover-highlighter, .hover-highlighter-blue, .hover-highlighter-pink {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+}
+.hover-highlighter::after, .hover-highlighter-blue::after, .hover-highlighter-pink::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: -5%;
+  display: block;
+  width: 0%;
+  height: 60%;
+  transition: all 0.15s ease-out;
+}
+.hover-highlighter:hover::after, .hover-highlighter-blue:hover::after, .hover-highlighter-pink:hover::after {
+  width: 110%;
+}
+.hover-highlighter::after {
+  @apply bg-tttHighlightRed
+}
+.hover-highlighter-blue::after {
+  @apply bg-tttHighlightBlue
+}
+.hover-highlighter-pink::after {
+  @apply bg-tttHighlightPink
 }

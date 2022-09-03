@@ -2,7 +2,7 @@
   <div class="theme-container layout-home">
     <!-- <Content slot-key="hero" class="w-[45em] bg-tttGrey p-16 mx-auto mt-60 text-center"/> -->
     <div class="w-[45em] bg-tttGrey p-12 mx-auto my-60 text-center">
-      <h1 class="text-5xl font-extralight highlighter">{{$site.title}}</h1>
+      <h1 class="text-5xl font-extralight hover-highlighter">{{$site.title}}</h1>
       <div class="border-b w-2/3 mx-auto my-4"></div>
       <p class="text-2xl">
         <Content slot-key="tagline" />
