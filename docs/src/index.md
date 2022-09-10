@@ -9,6 +9,5 @@ items:
 ---
 
 ::: slot tagline
-A new co-op tabletop RPG <br>
-about the perils of advanced AI
+A research-supported ttrpg in which the players collectively act as a misaligned AI in the modern world
 :::

@@ -1,24 +1,76 @@
 <template>
   <div class="theme-container layout-home">
-    <!-- <Content slot-key="hero" class="w-[45em] bg-tttGrey p-16 mx-auto mt-60 text-center"/> -->
-    <div class="w-[45em] bg-tttGrey p-12 mx-auto my-60 text-center">
-      <h1 class="text-5xl font-extralight hover-highlighter">{{$site.title}}</h1>
-      <div class="border-b w-2/3 mx-auto my-4"></div>
-      <p class="text-2xl">
+    <div class="home-splash">
+      <h1 class="home-splash-title highlighter-red">{{$site.title}}</h1>
+      <div class="home-splash-divider"></div>
+      <p class="home-splash-tagline">
         <Content slot-key="tagline" />
       </p>
     </div>
 
     <div
       v-for="item in $page.frontmatter.items"
-      class="w-[55em] bg-tttGrey mx-auto mb-16 px-16 py-10"
+      class="home-items"
     >
-      <h2 class="text-2xl highlighter-blue mb-10">{{item.title}}</h2>
-      <p class="text-lg">{{item.content}}</p>
+      <h2 class="home-items-title">{{item.title}}</h2>
+      <p class="home-items-content">{{item.content}}</p>
     </div>
     <Content />
   </div>
 </template>
+
+<style>
+.home-splash {
+  width: 47rem;
+  background-color: var(--tttGrey);
+  padding: 2rem;
+  margin: 15rem auto;
+  text-align: center;
+}
+.home-splash h1, .home-splash p {
+  margin: 0;
+}
+.home-splash-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 200;
+  /* TODO: highlighter */
+}
+.home-splash:hover .home-splash-title {
+  background-size: 100% var(--highlighter-height);
+}
+.home-splash-divider {
+  border-bottom: 1px solid;
+  width: 66.66667%;
+  margin: 1rem auto;
+  margin-top: 1.5rem;
+}
+.home-splash-tagline {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.home-items {
+  width: 55rem;
+  background-color: var(--tttGrey);
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 2.5rem 4rem;
+}
+.home-items:hover .home-items-title {
+  background-size: 100% var(--highlighter-height);
+}
+.home-items-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+.home-items-content {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 2.5rem;
+}
+</style>
 
 <script>
 
