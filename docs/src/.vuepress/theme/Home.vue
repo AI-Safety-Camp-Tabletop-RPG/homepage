@@ -12,7 +12,7 @@
       v-for="item in $page.frontmatter.items"
       class="home-items"
     >
-      <h2 class="home-items-title">{{item.title}}</h2>
+      <h2 class="home-items-title highlighter-blue">{{item.title}}</h2>
       <p class="home-items-content">{{item.content}}</p>
     </div>
     <Content />
