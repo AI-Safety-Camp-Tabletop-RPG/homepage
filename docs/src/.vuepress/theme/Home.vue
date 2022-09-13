@@ -21,7 +21,7 @@
 
 <style>
 .home-splash {
-  width: 47rem;
+  max-width: 47rem;
   background-color: var(--tttGrey);
   padding: 2rem;
   margin: 15rem auto;
@@ -50,7 +50,7 @@
   font-weight: 300;
 }
 .home-items {
-  width: 55rem;
+  max-width: 55rem;
   background-color: var(--tttGrey);
   margin: 0 auto;
   margin-bottom: 4rem;

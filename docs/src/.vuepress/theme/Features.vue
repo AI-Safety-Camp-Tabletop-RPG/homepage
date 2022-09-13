@@ -6,10 +6,16 @@
 </template>
 <style>
   .feature-block {
-    width: 55em;
+    max-width: 55em;
     background-color: var(--tttGrey);
     margin: 4rem auto;
     padding: 2.5rem 1.5rem;
+  }
+  .feature-block:nth-child(odd) {
+    margin-right: 0;
+  }
+  .feature-block:nth-child(even) {
+    margin-left: 0;
   }
   .feature-block h2 {
     font-size: 1.9rem;
