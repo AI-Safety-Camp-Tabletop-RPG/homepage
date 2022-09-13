@@ -82,7 +82,11 @@ a {
   position: fixed;
   z-index: 0;
   top: 0rem;
-  left: -20rem;
+  left: -15rem;
+}
+.bg-glitch canvas {
+  transform: scale(0.4);
+  transform-origin: top left;
 }
 /* highlighter effects */
 .highlighter, .highlighter-pink, .highlighter-blue, .highlighter-red {

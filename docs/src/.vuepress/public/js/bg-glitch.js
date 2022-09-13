@@ -12,7 +12,7 @@ PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
 PIXI.settings.ROUND_PIXELS = true
 
 const imgURL = {
-  base: '/img/Logo glitch light 0.png',
+  base: '/img/Indexed sequences/Logo indexed base.png',
   solo: [
     '/img/Indexed sequences/Logo indexed solo1.png',
     '/img/Indexed sequences/Logo indexed solo2.png',
@@ -20,23 +20,23 @@ const imgURL = {
   ],
   seq: [
     [
-      '/img/Indexed sequences/Logo indexed seq1.0.png',
-      '/img/Indexed sequences/Logo indexed seq1.1.png',
-      '/img/Indexed sequences/Logo indexed seq1.2.png',
-      '/img/Indexed sequences/Logo indexed seq1.3.png',
-      '/img/Indexed sequences/Logo indexed seq1.4.png',
-      '/img/Indexed sequences/Logo indexed seq1.5.png',
+      '/img/Indexed sequences/Logo indexed seq1 (1).png',
+      '/img/Indexed sequences/Logo indexed seq1 (2).png',
+      '/img/Indexed sequences/Logo indexed seq1 (3).png',
+      '/img/Indexed sequences/Logo indexed seq1 (4).png',
+      '/img/Indexed sequences/Logo indexed seq1 (5).png',
+      '/img/Indexed sequences/Logo indexed seq1 (6).png',
     ],
     [
-      '/img/Indexed sequences/Logo indexed seq2.0.png',
-      '/img/Indexed sequences/Logo indexed seq2.1.png',
+      '/img/Indexed sequences/Logo indexed seq2 (1).png',
+      '/img/Indexed sequences/Logo indexed seq2 (2).png',
     ],
     [
-      '/img/Indexed sequences/Logo indexed seq3.0.png',
-      '/img/Indexed sequences/Logo indexed seq3.1.png',
-      '/img/Indexed sequences/Logo indexed seq3.2.png',
-      '/img/Indexed sequences/Logo indexed seq3.3.png',
-      '/img/Indexed sequences/Logo indexed seq3.4.png',
+      '/img/Indexed sequences/Logo indexed seq3 (1).png',
+      '/img/Indexed sequences/Logo indexed seq3 (2).png',
+      '/img/Indexed sequences/Logo indexed seq3 (3).png',
+      '/img/Indexed sequences/Logo indexed seq3 (4).png',
+      '/img/Indexed sequences/Logo indexed seq3 (5).png',
     ],
   ]
 }
@@ -62,17 +62,17 @@ const sprites = {
 
 // create renderer
 
-let app = new PIXI.Application({ width: 1080, height: 1080 });
+let app = new PIXI.Application({ width: 2880, height: 2880 });
 document.body.querySelector('.bg-glitch').appendChild(app.view);
 const allSprites = [sprites.base, ...sprites.solo, ...sprites.seq]
 allSprites.forEach((sprite) => {
   sprite.visible = false
   sprite.anchor.x = 0.5
   sprite.anchor.y = 0.5
-  sprite.position.x = 540
-  sprite.position.y = 540
-  sprite.scale.x = 1.5
-  sprite.scale.y = 1.5
+  sprite.position.x = 1440
+  sprite.position.y = 1440
+  // sprite.scale.x = 0.5
+  // sprite.scale.y = 0.5
   app.stage.addChild(sprite)
 })
 sprites.base.visible = true
