@@ -68,7 +68,7 @@
   font-size: 1.125rem;
   font-weight: 300;
   margin: 0;
-  margin-top: 2.5rem;
+  margin-top: 1.7rem;
 }
 </style>
 

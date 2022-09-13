@@ -43,6 +43,35 @@ a {
   color: white;
   text-decoration: none;
 }
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
 /* glitch effect */
 .app-container {
   position: absolute;
@@ -52,8 +81,8 @@ a {
   opacity: 0.6;
   position: fixed;
   z-index: 0;
-  top: -10em;
-  left: -10em;
+  top: 0rem;
+  left: -20rem;
 }
 /* highlighter effects */
 .highlighter, .highlighter-pink, .highlighter-blue, .highlighter-red {
