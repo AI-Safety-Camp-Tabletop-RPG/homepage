@@ -1,6 +1,7 @@
 <template>
   <div id="global-layout">
     <div class="header-decor">
+      <div class="header-decor-bg"></div>
       <img src="img/Decor/Header-footers/Short/short LT.png" alt="" class="header-decor-left">
       <img src="img/Decor/Header-footers/Short/short RT.png" alt="" class="header-decor-right">
       <img src="img/Decor/Header-footers/Long/long L.png" alt="" class="header-decor-left">
@@ -35,6 +36,7 @@
     <component class="container" :is="layout"/>
 
     <div class="footer-decor">
+      <div class="footer-decor-bg"></div>
       <img src="img/Decor/Header-footers/Short/short LB.png" alt="" class="footer-decor-glitch footer-decor-left">
       <img src="img/Decor/Header-footers/Short/short RB.png" alt="" class="footer-decor-glitch footer-decor-right">
       <img src="img/Decor/Header-footers/Long/long thin L.png" alt="" class="footer-decor-glitch footer-decor-left">
@@ -96,6 +98,12 @@
   margin-bottom: -10rem;
   overflow: hidden;
 }
+.header-decor-bg, .footer-decor-bg {
+  background: black;
+  position: absolute;
+  width: 100%;
+  height: 7rem;
+}
 .footer-decor {
   position: absolute;
   z-index: 0;
@@ -140,7 +148,7 @@
 /* FOOTER */
 .footer {
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   position: relative;
   z-index: 2;
