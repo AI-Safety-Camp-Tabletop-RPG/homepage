@@ -62,15 +62,15 @@ const sprites = {
 
 // create renderer
 
-let app = new PIXI.Application({ width: 2880, height: 2880 });
+let app = new PIXI.Application({ width: 1080, height: 1080 });
 document.body.querySelector('.bg-glitch').appendChild(app.view);
 const allSprites = [sprites.base, ...sprites.solo, ...sprites.seq]
 allSprites.forEach((sprite) => {
   sprite.visible = false
   sprite.anchor.x = 0.5
   sprite.anchor.y = 0.5
-  sprite.position.x = 1440
-  sprite.position.y = 1440
+  sprite.position.x = 540
+  sprite.position.y = 540
   // sprite.scale.x = 0.5
   // sprite.scale.y = 0.5
   app.stage.addChild(sprite)
@@ -109,7 +109,7 @@ function switchState() {
 }
 
 function enterGlitchState() {
-  let newState = Math.floor(Math.random()*2)+1
+  let newState = getNewState()
   if (newState === STATE_SOLO) {
     changeActiveSprite(sprites.solo[Math.floor(Math.random()*sprites.solo.length)])
     setTimeout(switchState, SOLO_DURATION_MS + SOLO_RANDOMIZER_MS * 2 * (Math.random() - 0.5))
@@ -129,6 +129,11 @@ function enterWaitState() {
   changeActiveSprite(sprites.base)
   state = STATE_CHILL
   setTimeout(switchState, CHILL_DURATION_MS + CHILL_RANDOMIZER_MS * 2 * (Math.random() - 0.5))
+}
+
+function getNewState() {
+  const stateWithProbability = [STATE_SOLO, STATE_SEQ, STATE_SEQ]
+  return stateWithProbability[Math.floor(Math.random() * stateWithProbability.length)]
 }
 
 const loader = PIXI.Loader.shared
