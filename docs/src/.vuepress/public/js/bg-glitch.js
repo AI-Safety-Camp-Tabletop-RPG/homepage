@@ -17,6 +17,8 @@ const imgURL = {
     '/img/Indexed sequences/Logo indexed solo1.png',
     '/img/Indexed sequences/Logo indexed solo2.png',
     '/img/Indexed sequences/Logo indexed solo3.png',
+    '/img/Indexed sequences/Logo indexed solo4.png',
+    '/img/Indexed sequences/Logo indexed solo5.png',
   ],
   seq: [
     [
@@ -30,13 +32,11 @@ const imgURL = {
     [
       '/img/Indexed sequences/Logo indexed seq2 (1).png',
       '/img/Indexed sequences/Logo indexed seq2 (2).png',
-    ],
-    [
-      '/img/Indexed sequences/Logo indexed seq3 (1).png',
-      '/img/Indexed sequences/Logo indexed seq3 (2).png',
-      '/img/Indexed sequences/Logo indexed seq3 (3).png',
-      '/img/Indexed sequences/Logo indexed seq3 (4).png',
-      '/img/Indexed sequences/Logo indexed seq3 (5).png',
+      '/img/Indexed sequences/Logo indexed seq2 (3).png',
+      '/img/Indexed sequences/Logo indexed seq2 (4).png',
+      '/img/Indexed sequences/Logo indexed seq2 (5).png',
+      '/img/Indexed sequences/Logo indexed seq2 (6).png',
+      '/img/Indexed sequences/Logo indexed seq2 (7).png',
     ],
   ]
 }
