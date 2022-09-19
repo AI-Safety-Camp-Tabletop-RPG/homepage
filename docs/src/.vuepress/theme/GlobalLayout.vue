@@ -183,6 +183,15 @@ export default {
       }
       return 'NotFound'
     }
+  },
+  mounted() {
+    // Initialize parallax effect
+    lax.init()
+
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+
   }
 }
 
