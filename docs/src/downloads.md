@@ -11,3 +11,5 @@ downloads:
 ---
 
 # Downloads
+
+For now the game is under development. Please submit your email to get the updates
