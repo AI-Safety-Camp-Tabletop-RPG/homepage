@@ -19,6 +19,9 @@
           <h1 class="highlighter-red">{{$site.title}}</h1>
         </RouterLink>
         <nav>
+          <RouterLink to="/downloads.html" class="header-nav-link highlighter-blue">
+            Downloads
+          </RouterLink>
           <a href="https://app.thetreacherousturn.ai/" class="header-nav-link highlighter-blue">Web Tool  ⨠</a>
           <RouterLink to="/contact.html" class="header-nav-link highlighter-blue">
             Contact
