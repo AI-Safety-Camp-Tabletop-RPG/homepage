@@ -111,22 +111,26 @@
   position: relative;
   z-index: 0;
   width: 100vw;
-  height: 10rem;
-  margin-bottom: -10rem;
+  height: 7rem;
+  margin-bottom: -7rem;
   overflow: hidden;
+}
+.header-decor-bg {
+  height: 7rem;
 }
 .header-decor-bg, .footer-decor-bg {
   background: black;
   position: absolute;
   width: 100%;
-  height: 7rem;
 }
 .footer-decor {
   position: absolute;
   z-index: 0;
   width: 100vw;
-  height: 7rem;
   overflow: hidden;
+}
+.footer-decor, .footer-decor-bg {
+  height: 10rem;
 }
 .header-decor img, .footer-decor img {
   position: absolute;
@@ -182,8 +186,9 @@
 }
 .footer .footer-social-links {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 1rem;
+  margin-top: 1rem;
 }
 </style>
 
