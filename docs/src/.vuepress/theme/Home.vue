@@ -15,9 +15,9 @@
       <h2 class="home-items-title highlighter-blue">{{item.title}}</h2>
       <p class="home-items-content">{{item.content}}</p>
     </div>
-    <Content />
     <Content slot-key="feature-1" ref="feature-1" class="feature-block highlighter-color-pink"/>
-    <Content slot-key="feature-2" ref="feature-2" class="feature-block highlighter-color-blue"/>
+    <!-- <Content slot-key="feature-2" ref="feature-2" class="feature-block highlighter-color-blue"/> -->
+    <Content />
 
   </div>
 </template>

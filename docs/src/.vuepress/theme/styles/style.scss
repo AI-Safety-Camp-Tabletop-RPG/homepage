@@ -24,6 +24,7 @@ html, body {
 }
 h1, h2, h3, h4, h5 {
 	font-weight: 200;
+	@extend .highlighter-pink;
 }
 h1 {
 	font-size: 3rem;
@@ -181,16 +182,7 @@ a {
 	padding: 2.5rem 1.5rem;
 	a {
 		text-decoration: underline;
-		padding-left: 0.4em;
-		padding-right: 0.4em;
-		display: inline;
-		background-repeat: no-repeat;
-		background-size: 0% var(--highlighter-height);
-		background-position: 0% 118%;
-		background-image: linear-gradient(0deg, var(--tttHighlightBlue), var(--tttHighlightBlue));
-		&:hover {
-			background-size: 100% var(--highlighter-height);
-		}
+		@extend .highlighter-blue;
 	}
 	img {
 		max-width: 100%;

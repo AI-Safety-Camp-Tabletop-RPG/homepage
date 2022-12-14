@@ -10,6 +10,6 @@ downloads:
   image: /module.png
 ---
 
-# Downloads
+## Downloads
 
-For now the game is under development. Please submit your email to get the updates.
+To be informed when The Treacherous Turn is fully released, enter your email below. Thank you!
