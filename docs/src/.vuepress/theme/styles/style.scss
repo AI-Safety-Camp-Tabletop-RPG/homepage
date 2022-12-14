@@ -1,0 +1,206 @@
+:root {
+	--tttYellow: #fffe00;
+	--tttCyan: #00ffa8;
+	--tttGrey: #1d2226;
+	--tttWhite: #e2ddd9;
+	--tttBlue: #0f2cff;
+	--tttHighlightRed: #ff0056;
+	--tttHighlightPink: #ee00e1;
+	--tttHighlightBlue: #0f2cff;
+	--tttWheelGreen: #5ab759;
+	--tttWheelYellow: #fcc831;
+	--tttWheelOrange: #fb8935;
+	--tttWheelRed: #f24159;
+	--tttWheelPink: #df54c0;
+	--tttWheelPurple: #9450ff;
+	--tttWheelBlue: #008cff;
+	--tttWheelCyan: #18c6b7;
+	--highlighter-height: 0.8em;
+}
+html, body {
+	background-color: black;
+	color: white;
+	font-family: 'IBM Plex Mono', monospace;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 200;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 1.9rem;
+}
+h3, h4 {
+	font-weight: 400;
+}
+h5 {
+	font-weight: 500;
+}
+// make images scale crispy
+img, canvas {
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}
+figure {
+	img {
+		width: 100%;
+	}
+}
+p {
+	line-height: 1.8em;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+// glitch effect
+.app-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.bg-glitch {
+	opacity: 0.6;
+	position: fixed;
+	z-index: 0;
+	top: 10rem;
+	left: -15rem;
+	canvas {
+		transform-origin: top left;
+	}
+}
+// highlighter effects
+.highlighter, .highlighter-pink, .highlighter-blue, .highlighter-red {
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	display: inline;
+	background-repeat: no-repeat;
+	background-size: 0% var(--highlighter-height);
+	background-position: 0% 118%;
+}
+.highlighter:hover, .highlighter-pink:hover, .highlighter-blue:hover, .highlighter-red:hover {
+	background-size: 100% var(--highlighter-height);
+}
+.highlighter, .highlighter-red {
+	background-image: linear-gradient(0deg, var(--tttHighlightRed), var(--tttHighlightRed));
+}
+.highlighter-blue {
+	background-image: linear-gradient(0deg, var(--tttHighlightBlue), var(--tttHighlightBlue));
+}
+.highlighter-pink {
+	background-image: linear-gradient(0deg, var(--tttHighlightPink), var(--tttHighlightPink));
+}
+// feature blocks
+.feature-block {
+	max-width: 55em;
+	background-color: var(--tttGrey);
+	margin: 4rem auto;
+	padding: 2.5rem 1.5rem;
+	&:nth-child(odd) {
+		margin-right: 0;
+	}
+	&:nth-child(even) {
+		margin-left: 0;
+	}
+	h2 {
+		font-size: 1.9rem;
+		font-weight: 200;
+    // highlighter fx
+		padding-left: 0.4em;
+		padding-right: 0.4em;
+		display: inline;
+		background-repeat: no-repeat;
+		background-size: 0% var(--highlighter-height);
+		background-position: 0% 118%;
+	}
+	&:hover {
+		h2 {
+			background-size: 100% var(--highlighter-height);
+		}
+	}
+	&.highlighter-color-pink {
+		h2 {
+			background-image: linear-gradient(0deg, var(--tttHighlightPink), var(--tttHighlightPink));
+		}
+	}
+	&.highlighter-color-red {
+		h2 {
+			background-image: linear-gradient(0deg, var(--tttHighlightRed), var(--tttHighlightRed));
+		}
+	}
+	&.highlighter-color-blue {
+		h2 {
+			background-image: linear-gradient(0deg, var(--tttHighlightBlue), var(--tttHighlightBlue));
+		}
+	}
+	p {
+		font-size: 1rem;
+		margin-top: 2rem;
+		&:first-of-type {
+			margin-top: 2.5rem;
+		}
+	}
+}
+// Content
+.content__default {
+	max-width: 55em;
+	background-color: var(--tttGrey);
+	margin: 4rem auto;
+	padding: 2.5rem 1.5rem;
+	a {
+		text-decoration: underline;
+		padding-left: 0.4em;
+		padding-right: 0.4em;
+		display: inline;
+		background-repeat: no-repeat;
+		background-size: 0% var(--highlighter-height);
+		background-position: 0% 118%;
+		background-image: linear-gradient(0deg, var(--tttHighlightBlue), var(--tttHighlightBlue));
+		&:hover {
+			background-size: 100% var(--highlighter-height);
+		}
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+		max-height: 75vh;
+		border-radius: 4px;
+	}
+}
+.content__default b, .content__default strong {
+	font-weight: 600;
+	color: var(--tttYellow);
+}
