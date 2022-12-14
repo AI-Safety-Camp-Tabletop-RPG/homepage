@@ -25,6 +25,7 @@ html, body {
 h1, h2, h3, h4, h5 {
 	font-weight: 200;
 	@extend .highlighter-pink;
+	display: inline-block;
 }
 h1 {
 	font-size: 3rem;
@@ -106,7 +107,7 @@ a {
 .highlighter, .highlighter-pink, .highlighter-blue, .highlighter-red {
 	padding-left: 0.4em;
 	padding-right: 0.4em;
-	display: inline;
+	// display: inline;
 	background-repeat: no-repeat;
 	background-size: 0% var(--highlighter-height);
 	background-position: 0% 118%;
