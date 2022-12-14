@@ -21,7 +21,7 @@
 html, body {
   background-color: black;
   color: white;
-  font-family: 'IBM Plex Mono', 'monospace';
+  font-family: 'IBM Plex Mono', monospace;
 }
 h1, h2, h3, h4, h5 {
   font-weight: 200;
