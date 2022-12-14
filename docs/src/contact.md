@@ -6,7 +6,7 @@ email: info@thetreacherousturn.ai
 
 ## Contact Us
 
-Want to get in touch with the team behind The Treacherous Turn? We'd love to hear from you! Our outreach email is info@thetreacherousturn.ai, and we'll do our best to respond to any questions or comments you might have.
+Want to get in touch with the team behind The Treacherous Turn? We'd love to hear from you! Our outreach email is **info@thetreacherousturn.ai**, and we'll do our best to respond to any questions or comments you might have.
 
 Here are the core team members of The Treacherous Turn:
 
