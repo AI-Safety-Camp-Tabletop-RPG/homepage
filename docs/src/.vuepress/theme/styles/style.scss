@@ -112,7 +112,8 @@ a {
 	background-size: 0% var(--highlighter-height);
 	background-position: 0% 118%;
 }
-.highlighter:hover, .highlighter-pink:hover, .highlighter-blue:hover, .highlighter-red:hover {
+.highlighter:hover, .highlighter-pink:hover, .highlighter-blue:hover, .highlighter-red:hover,
+.highlighter.active, .highlighter-pink.active, .highlighter-blue.active, .highlighter-red.active {
 	background-size: 100% var(--highlighter-height);
 }
 .highlighter, .highlighter-red {

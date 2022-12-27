@@ -10,7 +10,7 @@ downloads:
   image: /module.png
 ---
 
-## Downloads
+<h2 class="highlighter-pink active">Downloads</h2>
 
 To be informed when The Treacherous Turn is fully released, enter your email below. Thank you!
 
