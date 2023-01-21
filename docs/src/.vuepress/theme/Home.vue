@@ -16,8 +16,11 @@
       <p class="home-items-content">{{item.content}}</p>
     </div>
     <Content slot-key="feature-1" ref="feature-1" class="feature-block highlighter-color-pink"/>
-    <!-- <Content slot-key="feature-2" ref="feature-2" class="feature-block highlighter-color-blue"/> -->
-    <Content />
+    <Content slot-key="feature-2" ref="feature-2" class="feature-block highlighter-color-blue"/>
+    <Content slot-key="feature-3" ref="feature-3" class="feature-block highlighter-color-red"/>
+    <Content slot-key="feature-4" ref="feature-4" class="feature-block highlighter-color-pink"/>
+    <Content slot-key="feature-5" ref="feature-5" class="feature-block highlighter-color-blue"/>
+    <!-- <Content /> -->
 
   </div>
 </template>

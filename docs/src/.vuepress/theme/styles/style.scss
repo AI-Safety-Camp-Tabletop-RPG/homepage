@@ -127,10 +127,6 @@ a {
 }
 // feature blocks
 .feature-block {
-	max-width: 55em;
-	background-color: var(--tttGrey);
-	margin: 4rem auto;
-	padding: 2.5rem 1.5rem;
 	&:nth-child(odd) {
 		margin-right: 0;
 	}
@@ -177,7 +173,7 @@ a {
 	}
 }
 // Content
-.content__default {
+.content__default, .feature-block {
 	max-width: 55em;
 	background-color: var(--tttGrey);
 	margin: 4rem auto;
@@ -193,8 +189,8 @@ a {
 		max-height: 75vh;
 		border-radius: 4px;
 	}
-}
-.content__default b, .content__default strong {
-	font-weight: 600;
-	color: var(--tttYellow);
+	b, strong {
+		font-weight: 600;
+		color: var(--tttYellow);
+	}
 }

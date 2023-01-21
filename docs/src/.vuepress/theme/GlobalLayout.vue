@@ -22,7 +22,9 @@
           <RouterLink to="/downloads.html" class="header-nav-link highlighter-blue">
             Downloads
           </RouterLink>
-          <a href="https://app.thetreacherousturn.ai/" class="header-nav-link highlighter-blue">Web Tool  ⨠</a>
+          <RouterLink to="/webtool.html" class="header-nav-link highlighter-blue">
+            Web tool
+          </RouterLink>
           <RouterLink to="/contact.html" class="header-nav-link highlighter-blue">
             Contact
           </RouterLink>
