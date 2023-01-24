@@ -8,22 +8,22 @@ core_members:
   role: project manager
 - name: Berbank Green
   avatar: img/headshots/berbank.png
-  role: 
+  role: game design consultant
 - name: Changbai Li
   avatar: img/headshots/changbai.jpg
   role: lead web developer
 - name: Cristian Trout
   avatar: img/headshots/christian.png
-  role: created the look of the game
+  role: lead graphic designer
 - name: Daniel Kokotajlo
   avatar: img/headshots/daniel.png
-  role: envisions the game
+  role: ai expert & mentor
 - name: iris holloway
   avatar: img/headshots/iris (official).png
   role: lead game designer
 - name: Karl von Wendt
   avatar: img/headshots/karl.png
-  role: 
+  role: narrative consultant
 contributors:
 - name: Eugene Lin
   avatar: img/headshots/default.png
@@ -33,7 +33,7 @@ contributors:
   role: UX consultant
 - name: TJ Smith
   avatar: img/headshots/tj.png
-  role: helped set some early core design principles
+  role: designer
 
 ---
 
