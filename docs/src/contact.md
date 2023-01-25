@@ -15,9 +15,6 @@ core_members:
 - name: Cristian Trout
   avatar: img/headshots/christian.png
   role: lead graphic designer
-- name: Daniel Kokotajlo
-  avatar: img/headshots/daniel.png
-  role: ai expert & mentor
 - name: iris holloway
   avatar: img/headshots/iris (official).png
   role: lead game designer
@@ -25,6 +22,9 @@ core_members:
   avatar: img/headshots/karl.png
   role: narrative consultant
 contributors:
+- name: Daniel Kokotajlo
+  avatar: img/headshots/daniel.png
+  role: ai expert & mentor
 - name: Eugene Lin
   avatar: img/headshots/default.png
   role: web developer
