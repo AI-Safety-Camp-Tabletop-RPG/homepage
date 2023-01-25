@@ -6,18 +6,24 @@ core_members:
 - name: Aemilia Dixon
   avatar: img/headshots/emily.png
   role: project manager
+  link: mailto:aemiliadixon@gmail.com
+  link_icon: icons/mail.svg
 - name: Berbank Green
   avatar: img/headshots/berbank.png
   role: game design consultant
 - name: Changbai Li
   avatar: img/headshots/changbai.jpg
   role: lead web developer
+  link: https://changbai.li/
+  link_icon: icons/www.svg
 - name: Cristian Trout
   avatar: img/headshots/christian.png
   role: lead graphic designer
 - name: iris holloway
   avatar: img/headshots/iris (official).png
   role: lead game designer
+  link: https://iris-lemony.itch.io/
+  link_icon: icons/itch.svg
 - name: Karl von Wendt
   avatar: img/headshots/karl.png
   role: narrative consultant
@@ -43,27 +49,11 @@ Want to get in touch with the team behind The Treacherous Turn? We'd love to hea
 
 <h3 class="highlighter-red">Created by</h3>
 <div class="members">
-  <div v-for="member in $page.frontmatter.core_members">
-    <figure>
-      <img :src="member.avatar" :alt="member.name">
-      <figcaption>
-        <span class="member-name">{{member.name}}</span>
-        <span>{{member.role}}</span>
-      </figcaption>
-    </figure>
-  </div>
+  <Member v-for="member in $page.frontmatter.core_members" :member='member' />
 </div>
 
 <h3 class="highlighter-red">Significant contributions by</h3>
 <div class="members">
-  <div v-for="member in $page.frontmatter.contributors">
-    <figure>
-      <img :src="member.avatar" :alt="member.name">
-      <figcaption>
-        <span class="member-name">{{member.name}}</span>
-        <span class="member-role">{{member.role}}</span>
-      </figcaption>
-    </figure>
-  </div>
+  <Member v-for="member in $page.frontmatter.contributors" :member='member' />
 </div>
 
