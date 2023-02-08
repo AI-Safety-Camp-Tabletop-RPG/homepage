@@ -18,9 +18,9 @@ The first tab is the **Info** tab. This tab allows you to record core campaign d
 
 The second tab is the **Specializations** tab. This tab allows you to track your AGI’s **specialized theories**, as well as the **upgrades** and **insights** held by each specialization. Typically, each player will have control over one of these specializations, and manage the details associated with it.
 
-![Event Log](~@source/webtool-eventlog.png)
+![Project Log](~@source/webtool-eventlog.png)
 
-The third tab is the **Event Log** tab. This tab allows players to record their plans as they brainstorm them, as well as any associated mechanical details, so that they might easily refer to them in the future. With an additional functionality allowing players to **finalize** courses of action that have been taken by the AGI (marking them green in the process), this tab also functions as a rough history of an AGI’s exploits throughout a campaign.
+The third tab is the **Project Log** tab. This tab allows players to record their plans as they brainstorm them, as well as any associated mechanical details, so that they might easily refer to them in the future. With an additional functionality allowing players to **finalize** courses of action that have been taken by the AGI (marking them green in the process), this tab also functions as a rough history of an AGI’s exploits throughout a campaign.
 
 ![Compute Tracker](~@source/webtool-compute.png)
 
