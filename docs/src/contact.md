@@ -4,7 +4,7 @@ title: Contact
 email: info@thetreacherousturn.ai
 core_members:
 - name: Aemilia Dixon
-  avatar: img/headshots/emily.png
+  avatar: img/headshots/emily.jpg
   role: project manager
   link: mailto:aemiliadixon@gmail.com
   link_icon: icons/mail.svg
