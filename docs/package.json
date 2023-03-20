@@ -8,6 +8,9 @@
     "email": ""
   },
   "repository": "/site-vuepress",
+  "engines": {
+    "node": "<17.0.0"
+  },
   "scripts": {
     "dev": "vuepress dev src",
     "dev:debug": "vuepress dev src --debug",
