@@ -1,7 +1,7 @@
 <template>
   <figure class="member">
     <div v-if="member.link" class="member-image-with-link">
-      <img :src="member.avatar" :alt="member.name">
+      <img :src="member.avatar" :alt="member.name" class="member-image">
       <div class="member-image-overlay">
         <!-- svg for link icon, using member.link_icon -->
         <a class="member-image-icon-link" :href="member.link" target="_blank" style="text-decoration: none;">
@@ -9,7 +9,7 @@
         </a>
       </div>
     </div>
-    <img v-else :src="member.avatar" :alt="member.name">
+    <img v-else :src="member.avatar" :alt="member.name" class="member-image">
 
     <figcaption>
 
@@ -66,5 +66,13 @@ a.member-image-icon-link {
       filter: none;
     }
   }
+}
+@media (max-width: 768px) {
+  .member {
+    margin: 1rem;
+  }
+}
+.member-image {
+  min-width: 6rem;
 }
 </style>

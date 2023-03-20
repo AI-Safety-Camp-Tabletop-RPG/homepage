@@ -44,6 +44,11 @@
 .home-splash:hover .home-splash-title {
   background-size: 100% var(--highlighter-height);
 }
+@media (max-width: 425px) {
+  .home-splash-title {
+    font-size: 2rem;
+  }
+}
 .home-splash-divider {
   border-bottom: 1px solid;
   width: 66.66667%;

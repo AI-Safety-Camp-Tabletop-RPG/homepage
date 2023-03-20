@@ -16,9 +16,9 @@
           <figure class="">
             <img src="img/Logo (180x180).png" alt="logo">
           </figure>
-          <h1 class="highlighter-red">{{$site.title}}</h1>
+          <h1 class="header-title highlighter-red">{{$site.title}}</h1>
         </RouterLink>
-        <nav>
+        <nav class="nav">
           <RouterLink to="/downloads.html" class="header-nav-link highlighter-blue">
             Downloads
           </RouterLink>
@@ -93,6 +93,14 @@
 	justify-content: space-between;
 	align-items: center;
 }
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.8rem;
+  }
+}
 .header-logo {
 	display: flex;
 	align-items: center;
@@ -105,6 +113,19 @@
 		font-weight: 300;
 	}
 }
+@media (max-width: 425px) {
+  .header-logo {
+    figure {
+      // width: 180px;
+      img {
+        width: 90px;
+      }
+    }
+  }
+  .header-title {
+    display: none;
+  }
+}
 .header-nav-link {
 	color: var(--tttWhite);
 	margin: 0 0.5rem;
@@ -116,6 +137,12 @@
 	background-size: 100% var(--highlighter-height);
 	color: white;
 }
+@media (max-width: 768px) {
+  .header-nav-link {
+    padding: 0.5rem;
+  }
+}
+
 .header-decor {
 	position: relative;
 	z-index: 0;

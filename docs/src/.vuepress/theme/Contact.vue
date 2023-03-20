@@ -8,6 +8,12 @@
 .members {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+@media (max-width: 425px) {
+  .members {
+    grid-template-columns: 1fr;
+  }
 }
 .members figcaption {
   margin-top: 0.5em;
