@@ -21,7 +21,7 @@
     <Content slot-key="feature-3" ref="feature-3" class="feature-block highlighter-color-red"/>
     <Content slot-key="feature-4" ref="feature-4" class="feature-block highlighter-color-pink"/>
     <div class="home-media">
-      <h1 class="home-media-title highlighter-red active">Media</h1>
+      <h1 class="home-media-title highlighter-red active">Podcast Appearances</h1>
     </div>
     <Content slot-key="media-1" ref="media-1" class="feature-block no-bg media-block highlighter-color-blue"/>
     <Content slot-key="media-2" ref="media-2" class="feature-block no-bg media-block highlighter-color-pink"/>
