@@ -20,6 +20,11 @@
     <Content slot-key="feature-2" ref="feature-2" class="feature-block highlighter-color-blue"/>
     <Content slot-key="feature-3" ref="feature-3" class="feature-block highlighter-color-red"/>
     <Content slot-key="feature-4" ref="feature-4" class="feature-block highlighter-color-pink"/>
+    <div class="home-media">
+      <h1 class="home-media-title highlighter-red active">Media</h1>
+    </div>
+    <Content slot-key="media-1" ref="media-1" class="feature-block no-bg media-block highlighter-color-blue"/>
+    <Content slot-key="media-2" ref="media-2" class="feature-block no-bg media-block highlighter-color-pink"/>
 
   </div>
 </template>
@@ -39,7 +44,6 @@
   margin: 0;
   font-size: 3rem;
   font-weight: 200;
-  /* TODO: highlighter */
 }
 .home-splash:hover .home-splash-title {
   background-size: 100% var(--highlighter-height);
@@ -79,6 +83,28 @@
   font-weight: 300;
   margin: 0;
   margin-top: 1.7rem;
+}
+
+.home-media {
+  max-width: 47rem;
+  padding: 2rem;
+  margin: 5rem auto;
+  text-align: center;
+}
+.home-media h1 {
+  margin: 0;
+}
+.home-media-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 200;
+}
+.feature-block.no-bg {
+  background-color: transparent;
+}
+.media-block {
+  text-align: center;
+  padding: 0;
 }
 </style>
 
