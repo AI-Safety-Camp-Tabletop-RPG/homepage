@@ -48,8 +48,6 @@ Because the game has such an emphasis on player input, we have set up official a
 That being said, there are people working to solve the issue of unsafe AI. AI Safety as we know it today is a fairly new, but quickly growing, interesting field that is eager to welcome new minds. The team that put together this game consisted mostly of individuals tangentially interested in AI Safety before signing up to the [AI Safety Camp](https://aisafety.camp/) program.
 :::
 
-## Media
-
 ::: slot media-1
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HvfV-RkeLlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
