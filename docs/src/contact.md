@@ -28,6 +28,9 @@ core_members:
   avatar: img/headshots/karl.png
   role: narrative consultant
 contributors:
+- name: Cassandra Grotenhuis
+  avatar: img/headshots/cassandra.png
+  role: editor
 - name: Daniel Kokotajlo
   avatar: img/headshots/daniel.png
   role: ai expert & mentor
