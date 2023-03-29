@@ -49,9 +49,9 @@ That being said, there are people working to solve the issue of unsafe AI. AI Sa
 :::
 
 ::: slot media-1
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HvfV-RkeLlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="embed-youtube" width="560" height="315" src="https://www.youtube.com/embed/HvfV-RkeLlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 
 ::: slot media-2
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IcJ19qVHG2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="embed-youtube" width="560" height="315" src="https://www.youtube.com/embed/IcJ19qVHG2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::

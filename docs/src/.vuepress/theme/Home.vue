@@ -106,6 +106,11 @@
   text-align: center;
   padding: 0;
 }
+@media (max-width: 560px) {
+  .embed-youtube {
+    width: 90%;
+  }
+}
 </style>
 
 <script>
