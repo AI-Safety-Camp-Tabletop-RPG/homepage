@@ -40,6 +40,11 @@ contributors:
 - name: Jan Dornig
   avatar: img/headshots/jan.jpg
   role: UX consultant
+- name: Lillie Hale
+  avatar: img/headshots/lillie.png
+  role: graphic designer
+  link: mailto:athesiel@gmail.com
+  link_icon: icons/mail.svg
 - name: TJ Smith
   avatar: img/headshots/tj.png
   role: designer
