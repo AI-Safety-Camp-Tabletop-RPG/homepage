@@ -111,6 +111,17 @@
     width: 90%;
   }
 }
+@media (min-width: 1440px) {
+  .content__media-1 .embed-youtube {
+    float: right;
+    margin-bottom: 4rem;
+  }
+  .content__media-2 .embed-youtube {
+    float: left;
+    margin-bottom: 4rem;
+  }
+}
+
 </style>
 
 <script>
