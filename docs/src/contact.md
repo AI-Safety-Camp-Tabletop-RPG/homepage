@@ -45,9 +45,6 @@ contributors:
   role: graphic designer
   link: mailto:athesiel@gmail.com
   link_icon: icons/mail.svg
-- name: TJ Smith
-  avatar: img/headshots/tj.png
-  role: designer
 
 ---
 
