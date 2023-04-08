@@ -18,7 +18,7 @@ core_members:
   link_icon: icons/www.svg
 - name: Cristian Trout
   avatar: img/headshots/christian.png
-  role: lead graphic designer
+  role: graphic designer
 - name: iris holloway
   avatar: img/headshots/iris (official).png
   role: lead game designer
@@ -42,7 +42,7 @@ contributors:
   role: UX consultant
 - name: Lillie Hale
   avatar: img/headshots/lillie.png
-  role: graphic designer
+  role: layout and graphic design
   link: mailto:athesiel@gmail.com
   link_icon: icons/mail.svg
 
