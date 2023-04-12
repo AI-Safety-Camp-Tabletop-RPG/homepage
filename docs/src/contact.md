@@ -19,6 +19,9 @@ core_members:
 - name: Cristian Trout
   avatar: img/headshots/christian.png
   role: graphic designer
+- name: Daniel Kokotajlo
+  avatar: img/headshots/daniel.png
+  role: ai expert & mentor
 - name: iris holloway
   avatar: img/headshots/iris (official).png
   role: lead game designer
@@ -31,9 +34,6 @@ contributors:
 - name: Cassandra Grotenhuis
   avatar: img/headshots/cassandra.png
   role: editor
-- name: Daniel Kokotajlo
-  avatar: img/headshots/daniel.png
-  role: ai expert & mentor
 - name: Eugene Lin
   avatar: img/headshots/default.png
   role: web developer
@@ -42,7 +42,7 @@ contributors:
   role: UX consultant
 - name: Lillie Hale
   avatar: img/headshots/lillie.png
-  role: layout and graphic design
+  role: layout and graphic designer
   link: mailto:athesiel@gmail.com
   link_icon: icons/mail.svg
 
@@ -52,12 +52,12 @@ contributors:
 
 Want to get in touch with the team behind The Treacherous Turn? We'd love to hear from you! Our outreach email is **info@thetreacherousturn.ai**, and we'll do our best to respond to any questions or comments you might have.
 
-<h3 class="highlighter-red">Created by</h3>
+<h3 class="highlighter-red">Original Team</h3>
 <div class="members">
   <Member v-for="member in $page.frontmatter.core_members" :member='member' />
 </div>
 
-<h3 class="highlighter-red">Significant contributions by</h3>
+<h3 class="highlighter-red">Other Contributors</h3>
 <div class="members">
   <Member v-for="member in $page.frontmatter.contributors" :member='member' />
 </div>
