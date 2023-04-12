@@ -57,7 +57,7 @@ Want to get in touch with the team behind The Treacherous Turn? We'd love to hea
   <Member v-for="member in $page.frontmatter.core_members" :member='member' />
 </div>
 
-<h3 class="highlighter-red">Other Contributors</h3>
+<h3 class="highlighter-red">Additional Contributors</h3>
 <div class="members">
   <Member v-for="member in $page.frontmatter.contributors" :member='member' />
 </div>
