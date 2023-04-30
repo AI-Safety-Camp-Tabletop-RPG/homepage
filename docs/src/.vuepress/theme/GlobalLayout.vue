@@ -10,7 +10,7 @@
       <img src="img/Decor/Header-footers/Lines/lines 1.png" alt="" class="header-decor-line-right">
       <img src="img/Decor/Header-footers/Masks/mask2.png" alt="" class="header-decor-mask">
     </div>
-    <header class="header container">
+    <header class="container header">
       <div class="header-content">
         <RouterLink to="/" exact class="header-logo">
           <figure class="">
@@ -22,9 +22,7 @@
           <RouterLink to="/downloads.html" class="header-nav-link highlighter-blue">
             Downloads
           </RouterLink>
-          <RouterLink to="/webtool.html" class="header-nav-link highlighter-blue">
-            Web tool
-          </RouterLink>
+          <a href="https://app.thetreacherousturn.ai/" class="header-nav-link highlighter-blue" target="_blank">Web Tool  ⨠</a>
           <RouterLink to="/contact.html" class="header-nav-link highlighter-blue">
             Contact
           </RouterLink>
@@ -32,7 +30,7 @@
       </div>
     </header>
 
-    <component class="body-content container" :is="layout"/>
+    <component class="container body-content" :is="layout"/>
 
     <footer class="footer">
       <div class="footer-decor">

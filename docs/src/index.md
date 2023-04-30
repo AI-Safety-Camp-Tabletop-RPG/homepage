@@ -26,7 +26,7 @@ To play out these often drawn-out schemes in only a few minutes or hours of real
 ::: slot feature-2
 ## Companion Web Tool
 
-To help players and game masters keep track of the game as they play, we have developed a bespoke [web tool](/webtool.html)! For players, the Treacherous Terminal is a place to record AGI details and upgrades, take notes on the game world and schemes pertaining to it, and track long mode computational actions—all of which is synced between players and persists between visits to the site. For GMs, the Terminal serves to automatically track in-game time and background events, ease the burden of arithmetic, and manage dice rolls.
+To help players and game masters keep track of the game as they play, we have developed a bespoke [web tool](https://app.thetreacherousturn.ai/)! For players, the Treacherous Terminal is a place to record AGI details and upgrades, take notes on the game world and schemes pertaining to it, and track long mode computational actions—all of which is synced between players and persists between visits to the site. For GMs, the Terminal serves to automatically track in-game time and background events, ease the burden of arithmetic, and manage dice rolls. You can view the source code of the Treacherous Terminal [here](https://github.com/the-treacherous-turn/terminal).
 :::
 
 ::: slot feature-3

@@ -4,9 +4,9 @@ title: Web Tool
 
 <h2 class="highlighter-pink active">Web Tool</h2>
 
-> *Note: The TTT companion web tool is not publicly available, but it will release alongside the complete game ruleset and starter scenario in April 2023.*
+> <image src="/img/icon_agentic.png" /> Access the web tool at [**app.thetreacherousturn.ai**](http://app.thetreacherousturn.ai/)!
 
-The TTT companion web tool, developed closely alongside the game’s core rules, is designed to provide you with everything you need to keep track of *The Treacherous Turn* during play. Every campaign is contained under a session ID, and collects all of that campaign’s information in one page where any edits are simultaneously synchronized between all viewers. On this page, it is easy to navigate between the four key sections as necessitated by play.
+The Treacherous Terminal, developed closely alongside the game’s core rules, is designed to provide you with everything you need to keep track of *The Treacherous Turn* during play. Every campaign is contained under a session ID, and collects all of that campaign’s information in one page where any edits are simultaneously synchronized between all viewers. On this page, it is easy to navigate between the four key sections as necessitated by play.
 
 ![Info Tab](~@source/webtool-info.png)
 
