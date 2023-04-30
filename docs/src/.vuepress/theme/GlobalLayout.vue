@@ -47,7 +47,7 @@
         <figure class="">
           <img src="img/Logo (180x180).png" alt="logo">
         </figure>
-        <em>© 2022 by The Treacherous Team.</em>
+        <em>© 2023 by The Treacherous Team.</em>
 
         <div class="footer-social-links">
           <a href="https://thetreacherousturn.itch.io/" target="_blank" rel="noopener noreferrer">
