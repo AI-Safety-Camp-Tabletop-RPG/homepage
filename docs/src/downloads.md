@@ -4,12 +4,12 @@ title: Downloads
 downloads:
 - name: The Treacherous Turn_
   image: img/logo_TT.png
-  link: https://github.com/the-treacherous-turn/homepage/releases/download/v1.0.0/The_Treacherous_Turn_Ruleset_04-30-23_.zip
+  link: https://github.com/the-treacherous-turn/homepage/releases/download/v1.0.0/The_Treacherous_Turn_04_30_23_.zip
   description: |
     <p>The game's core rules of play. Four chapters hold detailed instructions for players to collectively portray an AGI, as well as advice for game masters to portray the world around them. Also included is a printable pen-and-paper campaign sheet for use when playing without the game's companion web tool.</p>
 - name: A Game Called Reality_
   image: img/logo_AGCR.png
-  link: https://github.com/the-treacherous-turn/homepage/releases/download/v1.0.0/A_Game_Called_Reality_04-30-23_.zip
+  link: https://github.com/the-treacherous-turn/homepage/releases/download/v1.0.0/A_Game_Called_Reality_04_30_23_.zip
   description: |
     <p><em>A short introductory scenario, designed to familiarise the players with the game’s mechanics, as well as some basic AI safety concepts. Players take on the role of an adaptive game-playing AGI thrust into a new and unfamiliar type of game. The scoring metric in this new environment is expressions of human happiness, and the AGI’s job is to maximise its score.</em></p>
     <p><strong>STARTING STAGE:</strong> Begins in Stage 1: Confinement.</p>
