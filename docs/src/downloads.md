@@ -4,7 +4,7 @@ title: Downloads
 downloads:
 - name: The Treacherous Turn_
   image: img/logo_TT.png
-  link: https://github.com/the-treacherous-turn/homepage/releases/download/v1.0.0/The_Treacherous_Turn_04_30_23_.zip
+  link: https://github.com/the-treacherous-turn/homepage/releases/download/v1.0.0/The_Treacherous_Turn_05_02_23_.zip
   last_updated: 4/30/2023
   description: |
     <p>The game's core rules of play. Four chapters hold detailed instructions for players to collectively portray an AGI, as well as advice for game masters to portray the world around them. Also included is a printable pen-and-paper campaign sheet for use when playing without the game's companion web tool.</p>
