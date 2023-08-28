@@ -7,7 +7,7 @@ downloads:
   link: https://github.com/the-treacherous-turn/homepage/releases/download/08_27_23_/The_Treacherous_Turn_08_27_23_.zip
   last_updated: 8/27/2023
   description: |
-    <p>The game's core rules of play. Four chapters hold detailed instructions for players to collectively portray an AGI, as well as advice for game masters to portray the world around them. Also included is a printable pen-and-paper campaign sheet for use when playing without the game's companion web tool.</p>
+    <p>The game's core rules of play. Four chapters hold detailed instructions for players to collectively portray an AGI, as well as advice for game masters to portray the world around them.</p>
 - name: A Game Called Reality_
   image: img/logo_AGCR.png
   link: https://github.com/the-treacherous-turn/homepage/releases/download/08_27_23_/A_Game_Called_Reality_08_27_23_.zip
